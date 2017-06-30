@@ -53,6 +53,6 @@ export default function(app) {
 
   const compiler = webpack(config);
 
-  app.use(webpackDevMiddleware(compiler, { noInfo: true }));
-  app.use(webpackHotMiddleware(compiler));
+  // app.use(webpackDevMiddleware(compiler, { noInfo: true }));
+  // app.use(webpackHotMiddleware(compiler));
 }
